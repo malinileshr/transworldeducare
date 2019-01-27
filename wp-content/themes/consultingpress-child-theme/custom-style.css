@@ -178,12 +178,7 @@ div#wpcf7-f5-p6-o1 {
     right: 0;
     bottom: -20px; 
  }
- /*.all-courses-btn-section {
-    position: absolute;
-    right: -150px;
-    bottom: 290px;
-    z-index: 9;
-}*/
+
 .full-width-inside span.apply-nowbtn-fullwidth {
     font-size: 18px;
     background-color: #fff;
@@ -198,7 +193,7 @@ div#wpcf7-f5-p6-o1 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }    
-#allfeatures .vc_btn3-container.vc_btn3-left{
+#allfeatures .vc_btn3-container.vc_btn3-left, #affiliated-section .full-width-inside, #affiliated-section .full-width-section p{
     text-align: center!important;
 }
 
@@ -211,4 +206,28 @@ div#wpcf7-f5-p6-o1 {
     padding-bottom: 5px;
     border-radius: 20px;
     margin: 5px;
+}
+#affiliated-section .full-width-section h1{
+    position: relative;
+    display: inline-block;
+}    
+#affiliated-section .full-width-section h1:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 12px auto;
+    width: 60%;
+    height: 1px;
+    background: #fff;
+}
+#affiliated-section .full-width-section p{
+    color:#fff !important;
+    margin-top: 40px !important;
+}
+.deans-message-inner .dr-name h3{
+    margin-bottom: 0px !important;
+}
+.deans-message-inner .dr-name h6 {
+    color: gray;
 }

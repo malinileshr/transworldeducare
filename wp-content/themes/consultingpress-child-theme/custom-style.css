@@ -28,12 +28,26 @@ p{
     height: 1px;
     background: #000;
 }
-#quick-links{
+#quick-links {
     float:right;
 }
 #quick-links > li:last-child{
     padding-right: 0px;
 }
+
+#quick-links > li {
+    padding-right: 20px;
+}
+
+#quick-links > li > i {
+    display: none;
+}
+
+#quick-links > li > span {
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+
 .top-bar-wrapper{
     background-color: #2c2c5e;
     margin-bottom: 0px;
@@ -41,9 +55,15 @@ p{
     border-bottom: 0px solid rgba(255, 255, 255, 0.1);
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .current-menu-item > a  {
-    color: #f71b59;
+    color: #f71b59!important;
     border-bottom: 2px solid #f71b59;
 }
+
+.navbar-default .navbar-nav > li.menu-item-has-children > a::after {
+    top: 10px;
+    right: -12px;
+}
+
 .navbar-default .navbar-nav > li > a {
     color: #2c2c5e;
 }
@@ -180,4 +200,15 @@ div#wpcf7-f5-p6-o1 {
 }    
 #allfeatures .vc_btn3-container.vc_btn3-left{
     text-align: center!important;
+}
+
+#menu-primary-menu.navbar-nav.pi-nav.menu li:last-child a{
+    background-color: #f71b59;
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin: 5px;
 }

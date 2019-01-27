@@ -1,19 +1,47 @@
 
 /** Header section **/
+h1, h2, h3, h4, h5, h6{
+    line-height: 30px !important;
+    margin-bottom: 22px !important;
+    font-weight: 400 !important;
+}
+p{
+   padding-bottom: 10px !important;
+}    
+.bold-text{
+    font-weight: 600 !important;   
+}
+.custom-white-color {
+    color: #fff !important;
+}
+.main-title h1, .all-courses-btn h4{
+    position:relative;
+    display:inline-block;
+}
+.main-title h1:after, .all-courses-btn h4:after{
+    content:'';
+    position:absolute;
+    left:0;    
+    top:100%;    
+    margin: 12px auto;
+    width: 72%;
+    height: 1px;
+    background: #000;
+}
 #quick-links{
-	float:right;
+    float:right;
 }
 #quick-links > li:last-child{
-	padding-right: 0px;
+    padding-right: 0px;
 }
 .top-bar-wrapper{
-	background-color: #2c2c5e;
-	margin-bottom: 0px;
+    background-color: #2c2c5e;
+    margin-bottom: 0px;
     padding: 0px 10px;
     border-bottom: 0px solid rgba(255, 255, 255, 0.1);
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .current-menu-item > a  {
-    color: #f71b59 !important;
+    color: #f71b59;
     border-bottom: 2px solid #f71b59;
 }
 .navbar-default .navbar-nav > li > a {
@@ -36,10 +64,10 @@
     margin-top: 0px; 
 }
 .header-wrapper.header-transparent{
-	position: inherit;
+    position: inherit;
 }
 .custom-full-width .col-md-12{
-	padding-right: 0px;
+    padding-right: 0px;
     padding-left: 0px;
 }
 .custom-full-width .row {
@@ -47,20 +75,22 @@
     margin-left: 0px;
 }
 .ms-anim-layers .ms-layer h1 strong{
-	color:#fff;
-	font-size: 45px;	
+    color:#fff;
+    font-size: 45px;    
 }
 .fillup-form span:first-child {
     position: absolute;
     z-index: 99;
-    left: 25px;
+    left: 52px;
     margin-top: 12px;
     font-size: 19px;
 }
 .wpcf7 .wpcf7-text, .wpcf7 .wpcf7-email, .wpcf7 .wpcf7-textarea, .wpcf7-number, .wpcf7-select{
-	padding: 10px 10px 10px 33px;
-	width: 100%;
-	margin-bottom: 10px;
+    padding: 10px 10px 10px 33px;
+    width: 100%;
+    margin-bottom: 10px !important;
+    border-radius: 10px;
+    border: 1px solid #80808042;
 }
 .apply-nowbtn {
     text-align: center;
@@ -68,7 +98,86 @@
 .apply-nowbtn .wpcf7-submit{
     float: none;
     background-color: #f71b59;
-    border-radius: 15px;
+    border-radius: 60px;
     width: 40%;
+    font-size: 15px;
+}
+div#wpcf7-f5-p6-o1 {
+    float: left;
+    width: 40%;
+    box-shadow: 1px 1px 6px 1px #2c2c5e42;
+    padding: 40px;
+    position: absolute;
+    right: 0;
+    top: -480px;
+    z-index: 99;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.allcourses-grid .vc_gitem-animated-block .vc-gitem-zone-height-mode-auto{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-top: 20px; 
+}
+.allcourses-grid .vc_grid-item-mini, .allcourses-grid .vc_grid-item-mini .vc_custom_heading h4, .allcourses-grid .vc_btn3-container.vc_btn3-left,
+#allfeatures .vc_grid-item-mini, #allfeatures .vc_grid-item-mini .vc_custom_heading h4{
+    text-align: center !important;
+}
+.allcourses-grid .vc_grid-item-mini .vc_custom_heading, .allcourses-grid .vc_grid-item-mini .vc_custom_heading h4,
+#allfeatures .vc_grid-item-mini .vc_custom_heading, #allfeatures .vc_grid-item-mini .vc_custom_heading h4{
+    margin-bottom: 0px !important;
+}
+.vc_btn3.vc_btn3-size-md{
+    padding: 7px 20px !important;
+    border-radius: 20px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #fff !important;
+    color: gray !important;
+    border: 1px solid #dfdfdf;
+}
+.vc_btn3.vc_btn3-size-md:hover {
+    background-color: #2c2c5e !important;
+    color: #fff !important;
+}
+.allcourses-grid .vc_grid-item-mini, #allfeatures .vc_grid-item-mini{
+    background-color: #fff;
+    box-shadow: 0px 1px 7px 1px #0717401a;
+}
+.allcourses-grid .vc_grid-item-mini .vc_gitem-zone{
+    overflow: inherit;
+    background-color: transparent !important; 
+}
+ .allcourses-grid .vc_btn3-container.vc_btn3-left{
+   margin-bottom: 0px !important;
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    bottom: -20px; 
+ }
+ /*.all-courses-btn-section {
+    position: absolute;
+    right: -150px;
+    bottom: 290px;
+    z-index: 9;
+}*/
+.full-width-inside span.apply-nowbtn-fullwidth {
     font-size: 18px;
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.full-width-inside span.apply-nowbtn-fullwidth a{
+    color: #c9205b !important;
+}
+#allfeatures .vc_grid-item-mini, #allfeatures .vc_grid-item-mini .vc_gitem-zone{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}    
+#allfeatures .vc_btn3-container.vc_btn3-left{
+    text-align: center!important;
 }

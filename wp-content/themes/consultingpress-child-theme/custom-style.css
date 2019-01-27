@@ -197,7 +197,7 @@ div#wpcf7-f5-p6-o1 {
     text-align: center!important;
 }
 
-#menu-primary-menu.navbar-nav.pi-nav.menu li:last-child a{
+#menu-primary-menu.navbar-nav.pi-nav.menu li.menu-item-object-custom:last-child a{
     background-color: #f71b59;
     color: #fff;
     padding-right: 15px;
@@ -207,6 +207,12 @@ div#wpcf7-f5-p6-o1 {
     border-radius: 20px;
     margin: 5px;
 }
+
+#menu-primary-menu.navbar-nav.pi-nav.menu li.menu-item-object-custom:last-child a:hover {
+    color: #fff!important;
+    border:none; 
+}
+
 #affiliated-section .full-width-section h1{
     position: relative;
     display: inline-block;

@@ -225,13 +225,19 @@ div#wpcf7-f5-p6-o1 {
     color:#fff !important;
     margin-top: 40px !important;
 }
-.deans-message-inner .dr-name h3{
+.deans-message-inner .dr-name h4{
     margin-bottom: 0px !important;
 }
 .deans-message-inner .dr-name h6 {
     color: gray;
 }
-
-.deans-message-inner .dr-name h6 {
-    color: #ff8800;
+.first-section .deans-message-inner {
+    padding: 20px 0px 20px 50px;
+}
+.second-section .deans-message-inner{
+    padding: 20px 50px 20px 0px;
+}
+#news-and-event-sec .vc_tta-panels{
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
 }

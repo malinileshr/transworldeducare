@@ -538,3 +538,19 @@ span.border-bottom {
     border-bottom: 2px solid #f71c5a;
     color: #f71c5a;
 }
+
+.StudentsSection .featured-page-box .body{
+    border: none;
+    padding-bottom: 0px;
+}
+
+.StudentsSection .featured-page-box .media img{
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    height: 100px;
+    width: 100px;
+}
+
+.StudentsSection .featured-page-box .body h2{
+    text-align: center;
+}

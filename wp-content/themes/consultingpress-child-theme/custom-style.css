@@ -546,11 +546,35 @@ span.border-bottom {
 
 .StudentsSection .featured-page-box .media img{
     border-radius: 50%;
-    border: 1px solid #ddd;
+    box-shadow: 0px 0px 15px 0px #dddddda6;
     height: 100px;
     width: 100px;
 }
 
 .StudentsSection .featured-page-box .body h2{
     text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.StudentsSection .featured-page-box .body h2:before{
+    display:none;
+}
+.StudentsSection .featured-page-box .media{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.StudentsSection .owl-theme .owl-dots, .StudentsSection .owl-theme .owl-nav{
+    text-align: inherit;
+}
+.StudentsSection .owl-controls > .owl-nav > .owl-prev{
+    top:-4px;
+}
+.StudentsSection .owl-theme .owl-nav [class*=owl-]{
+    display: initial;
+}
+.StudentsSection .featured-page-box > .body::before {
+    background-color: #f71c5a;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }

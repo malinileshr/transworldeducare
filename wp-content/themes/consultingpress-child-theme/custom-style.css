@@ -7,8 +7,8 @@ h1, h2, h3, h4, h5, h6{
 }
 body p{
    padding-bottom: 10px !important;
-   font-size: 16px;
-   line-height: 27px;
+   font-size: 13px;
+   line-height: 25px;
 }    
 .bold-text{
     font-weight: 600 !important;   
@@ -477,6 +477,48 @@ li.post-container.clearfix {
     width: 50%;
     height: 2px;
     background: #f71c5a;
+}
+#allfeatures {
+    padding-right: 0 !important;
+    padding-left: 220px !important;
+}
+#allfeatures .vc_grid-item-mini {
+    padding:0;
+}
+.all-features-btn a {
+    color: #7c7c7c;
+    font-size: 13px;
+}
+#allfeatures .vc_gitem-zone{
+    background-color: #ffffff !important;   
+}
+#allfeatures .vc_gitem-zone h4{
+font-weight: bold !important;   
+}
+/********************/
+#news-and-event-sec{
+        background-color: #f9f9ff !important;
+}
+#news-and-event-sec .vc_grid-item-mini {
+    padding:0;
+}
+#news-and-event-sec .vc_gitem-zone{
+    background-color: #ffffff !important;   
+}
+#news-and-event-sec .vc_gitem-zone h4{
+font-weight: bold !important;   
+}
+#news-and-event-sec .vc_gitem-zone p{
+    text-align:center;
+}
+#news-and-event-sec .vc_btn3-container {
+    margin-bottom: 0;
+}
+.vc_custom_1548688917213 {
+    background-color: #007389 !important;
+}
+.vc_custom_1548598700239 {
+    background-color: #007389 !important;
 }
 /***********Contact us page ************/
 .custom-heading-03::before{

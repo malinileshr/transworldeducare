@@ -26,31 +26,32 @@ var initializeGlobelCalls = function(){
 }();
 
 (jQuery)(function ($) {
-	jQuery(".StudentsSection .featured-pages-carousel").owlCarousel({
-	    items: 8,
-	    dots: false,
-	    nav: true,
-	    loop: true,
-	    autoplay: true,
-	    autoHeight: false,
-	    autoplayTimeout: 3000,
-	    autoplayHoverPause: true,
-	    margin: 30,
-	    responsiveClass: true,
-	    mouseDrag: true,
-	    responsive: {
-	        0: {
-	            items: 2
-	        },
-	        600: {
-	            items: 4
-	        },
-	        1000: {
-	            items: 8
-	        }
-	    }
-	});
-
+    if(jQuery('.StudentsSection').length){
+    	jQuery(".StudentsSection .featured-pages-carousel").owlCarousel({
+    	    items: 5,
+    	    dots: false,
+    	    nav: true,
+    	    loop: true,
+    	    autoplay: true,
+    	    autoHeight: false,
+    	    autoplayTimeout: 3000,
+    	    autoplayHoverPause: true,
+    	    margin: 30,
+    	    responsiveClass: true,
+    	    mouseDrag: true,
+    	    responsive: {
+    	        0: {
+    	            items: 2
+    	        },
+    	        600: {
+    	            items: 3
+    	        },
+    	        1000: {
+    	            items: 5
+    	        }
+    	    }
+    	});
+    }
 	$( ".StudentsSection .owl-prev").html('<i class="fa fa-chevron-left"></i>');
  	$( ".StudentsSection .owl-next").html('<i class="fa fa-chevron-right"></i>');
 });

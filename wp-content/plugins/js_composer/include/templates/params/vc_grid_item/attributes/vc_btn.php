@@ -48,7 +48,7 @@ $class_to_filter .= vc_shortcode_custom_css_class( $css, ' ' ) . $vc_btn->getExt
 $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, $class_to_filter, $vc_btn->settings( 'base' ), $atts );
 
 $button_class = ' vc_btn3-size-' . $size . ' vc_btn3-shape-' . $shape . ' vc_btn3-style-' . $style;
-$button_html = $title;
+$button_html = 'Know More';
 
 if ( '' === trim( $title ) ) {
 	$button_class .= ' vc_btn3-o-empty';

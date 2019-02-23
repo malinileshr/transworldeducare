@@ -53,8 +53,9 @@
 
         switch ( $volcanno_header_type ) {
             case 'finance':
-                $header_type_class[] = 'header-transparent';
-                $header_type_class[] = 'header-finance';
+                $header_type_class[] = 'header-style-02';
+                $header_type_class[] = 'header-it-security';
+                $header_type_class[] = 'header-fixed-top';
                 break;
             case 'it_security':
                 $header_type_class[] = 'header-style-02';
@@ -141,7 +142,7 @@
                                 <?php if ( $volcanno_header_type == 'it_security' ) : ?>
                                     <div class="main-navigation">
                                         <!-- .navbar.navbar-default start -->
-                                        <nav class="navbar navbar-default nav-left pi-mega">
+                                        <nav class="navbar navbar-default navbar-fixed-top pi-mega">
                                             <!-- .navbar-header start -->
                                             <div class="navbar-header">
                                                 <?php echo Volcanno_Partials::header_element( 'navbar_toggle' ); ?>

@@ -149,6 +149,15 @@ content: "";
 .header-wrapper.header-transparent{
     position: inherit;
 }
+
+.header-fixed-top #main-nav{
+ float: right;
+}
+
+.header-fixed-top .top-bar-wrapper {
+    padding: 0;
+}
+
 .vc_row {
     margin-bottom: 0;
 }

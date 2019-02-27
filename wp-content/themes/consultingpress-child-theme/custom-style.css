@@ -44,6 +44,9 @@ body p{
 .all-courses-btn h4:after, .all-features-btn h4:after{
   background: #acb4b5;
 } 
+.all-features-btn h4:after{
+  margin-top:0;
+} 
 #quick-links {
     float:right;
 }
@@ -311,7 +314,7 @@ text-transform: uppercase;
     z-index: 9;
     left: 0;
     right: 0;
-    bottom: -35px; 
+    bottom: -35px;
  }
 #allfeatures .vc_grid-item-mini .vc_gitem-zone-c, #news-and-event-sec .vc_grid-item-mini .vc_gitem-zone-c {
     min-height: 290px;
@@ -529,6 +532,13 @@ font-weight: bold !important;
 .vc_custom_1548598700239 {
     background-color: #007389 !important;
 }
+/***********director section************/
+.homepage_director-info_1, .homepage_director-info_2 {
+    min-height: 405px;
+}
+.homepage_affiliated-section, .homepage_get-addmission{
+    background: -webkit-linear-gradient(top,#2d5b85,#00aae8)!important;	
+}
 /***********Contact us page ************/
 .custom-heading-03::before{
     display: none;
@@ -600,8 +610,15 @@ span.border-bottom {
     box-shadow: 0px 0px 15px 0px #dddddda6;
     height: 100px;
     width: 100px;
+    margin: 0 auto;
+    object-fit: cover;
 }
-
+.homepage_graduates .wpb_text_column{
+	    margin-top: 20px;
+}
+.homepage_graduates .wpb_text_column p{
+	text-align:center !important;
+}
 .StudentsSection .featured-page-box .body h2{
     text-align: center;
     padding: 0px;
@@ -631,5 +648,20 @@ span.border-bottom {
 }
 div.go-gallery ul.go-gallery-filters{
     padding-bottom: 30px !important;
+	padding-top:30px;
 }
-
+/********************gallery page***************/
+ul.go-gallery-filters li a{
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    padding: 0 20px;	
+	    position: relative;
+}
+ul.go-gallery-filters li a:after{
+	content:"";
+}
+#Gallery-section .vc_tta-panel-body {
+    background-color: #ffffff;
+    padding: 0;
+}

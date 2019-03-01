@@ -180,7 +180,7 @@ content: "";
     position: absolute;
     z-index: 99;
     left: 40px;
-    margin-top: 8px;
+    margin-top: 13px;
     font-size: 19px;
 }
 h1.form-title {
@@ -194,7 +194,6 @@ h1.form-title {
     padding: 5px 10px 5px 40px;
     width: 100%;
     margin-bottom: 10px !important;
-    border-radius: 6px;
     border: 1px solid #bebebe;
 }
 .apply-nowbtn {
@@ -234,8 +233,8 @@ float: left;
     background-color: #fff;
     border-radius: 6px;
 }
-.wpcf7 .wpcf7-text, .wpcf7 .wpcf7-email, .wpcf7 .wpcf7-textarea {
-    min-height: 35px;
+.wpcf7 .wpcf7-text, .wpcf7 .wpcf7-email, .wpcf7 .wpcf7-textarea, .wpcf7-number, .wpcf7-select {
+    min-height: 45px;
 }
 .allcourses-grid .vc_gitem-animated-block .vc-gitem-zone-height-mode-auto{
     width: 37%;
@@ -656,12 +655,54 @@ ul.go-gallery-filters li a{
     color: #000;
     font-size: 14px;
     padding: 0 20px;	
-	    position: relative;
+	position: relative;
 }
 ul.go-gallery-filters li a:after{
 	content:"";
 }
-#Gallery-section .vc_tta-panel-body {
-    background-color: #ffffff;
-    padding: 0;
+.gallery-text {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+div.go-gallery ul.go-gallery-filters li a{
+    background: #4440 !important;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+ul.go-gallery-filters li.active a:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #02738a;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    text-align: center;
+}
+div.go-gallery ul.go-gallery-filters li.active a{
+    color:#02738a !important;
+}
+div.go-gallery ul.go-gallery-list li.go-gallery-item .image-overlay h3,
+#qt_popup_lb .qt_popup_header span.title{
+    display: none;
+}
+#Gallery-section .go-gallery{
+   background-color: transparent;
+}
+#qt_popup_lb .qt_popup_header{
+    padding: 20px 12px;
+}
+.main-nav {
+    box-shadow: 0px 0px 9px 0px #5151ea8c;
+}
+.key-contacts img{
+    height: 100px;
+}
+#contact-detail-section .contact-detail-blogs h5 i{
+    font-size: 15px;
 }

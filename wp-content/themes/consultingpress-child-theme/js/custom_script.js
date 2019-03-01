@@ -15,12 +15,21 @@ var initializeGlobelCalls = function(){
 			$("<p>"+name+"</p>").insertAfter(".wpls-fix-box img.wp-post-image");
 		});
 		
-	}	
+	}
+    var gallerytab = function(){
+        $('.go-gallery-filters li').first().hide();        
+        $('a[data-filter = "pune-campus"]').parent('li').addClass("active");        
+        $('.go-gallery-filters a').click(function(){
+            var tabvalue = $(this).attr('data-filter');
+            $('a').parent('li').removeClass("active");
+            $('a[data-filter = '+tabvalue+']').parent('li').addClass("active");
+        });
+    }	
 	return{
 		init: function(){
 			addSidebarButtonicon();
 			//getStudentName();
-			
+			gallerytab();
 		}
 	};
 }();

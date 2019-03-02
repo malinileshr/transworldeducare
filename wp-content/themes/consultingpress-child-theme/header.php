@@ -83,7 +83,12 @@
             <header id="header">
 
                 <!-- .container start -->
-                <div class="custom-full-width">
+                <?php if (is_front_page()) {
+                    echo '<div class="custom-full-width">';
+                } else {
+                    echo '<div class="container">';
+                } 
+                ?>
                     <div class="row">
                         <div class="col-md-12">
                             <!-- .top-bar-wrapper start -->
@@ -133,7 +138,13 @@
                 <div class="header-inner">
 
                     <!-- .container start -->
-                    <div class="custom-full-width">
+                    <!-- .container start -->
+                    <?php if (is_front_page()) {
+                        echo '<div class="custom-full-width">';
+                    } else {
+                        echo '<div class="container">';
+                    } 
+                    ?>
 
                         <div class="row">
 

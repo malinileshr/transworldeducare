@@ -1,4 +1,4 @@
-/** Header section **/
+/** ===== Global Declarition ==== **/
 h1, h2, h3, h4, h5, h6{
     line-height: 30px !important;
     margin-bottom: 22px !important;
@@ -15,6 +15,62 @@ body p{
 .custom-white-color {
     color: #fff !important;
 }
+/** ===== END Global Declarition ==== **/
+
+/* =======Custom Header for Home Page=======*/
+.page-home .top-bar-wrapper{
+    background-color: #2c2c5e;
+    margin-bottom: 0px;
+    padding: 0px 10px;
+    border-bottom: 0px solid rgba(255, 255, 255, 0.1);
+}
+.page-home .navbar-default{
+    margin-bottom: 0px;
+}
+.page-home .navbar-default .navbar-nav > li > a:focus,
+.page-home .navbar-default .navbar-nav > li > a:hover,
+.page-home .navbar-default .navbar-nav > .current-menu-item > a  {
+    color: #f71b59!important;
+    border-bottom: 2px solid #f71b59;
+}
+.page-home .navbar-default .navbar-nav > li.menu-item-has-children > a::after {
+    top: 10px;
+    right: -12px;
+}
+.page-home .navbar-default .navbar-nav > li > a {
+    color: #2c2c5e;
+    text-transform: uppercase;
+    font-weight: 600;   
+}
+.page-home .nav>li>a {
+    padding: 10px 0px;
+    margin: 0px 15px;
+}
+.page-home #logo {
+    margin-left: 30px;
+}
+.page-home ul#menu-primary-menu {
+    margin-top: 8px;
+}
+.page-home .logged-in.admin-bar .header-wrapper {
+    margin-top: 0px; 
+}
+.page-home .header-wrapper.header-transparent{
+    position: inherit;
+}
+.page-home .header-fixed-top #main-nav{
+    float: right;
+}
+.page-home .header-fixed-top .top-bar-wrapper {
+    padding: 0;
+}
+.page-home .main-nav {
+    box-shadow: 0px 0px 9px 0px #5151ea8c;
+}
+
+/* =======END Custom Header for Home Page=======*/
+
+
 .main-title h1, .all-courses-btn h4, .all-features-btn h4{
     position:relative;
     display:inline-block;
@@ -73,38 +129,8 @@ body p{
 #quick-links a{
     color:#fff;
 }
-.top-bar-wrapper{
-    background-color: #2c2c5e;
-    margin-bottom: 0px;
-    padding: 0px 10px;
-    border-bottom: 0px solid rgba(255, 255, 255, 0.1);
-}
-.navbar-default{
-    margin-bottom: 0px;
-}
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .current-menu-item > a  {
-    color: #f71b59!important;
-    border-bottom: 2px solid #f71b59;
-}
-.navbar-default .navbar-nav > li.menu-item-has-children > a::after {
-    top: 10px;
-    right: -12px;
-}
-.navbar-default .navbar-nav > li > a {
-    color: #2c2c5e;
-    text-transform: uppercase;
-    font-weight: 600;   
-}
-.nav>li>a {
-    padding: 10px 0px;
-    margin: 0px 15px;
-}
-#logo {
-    margin-left: 30px;
-}
-ul#menu-primary-menu {
-    margin-top: 8px;
-}
+
+
 .ms-slide-bgcont:before{
 content: "";
     position: absolute;
@@ -137,24 +163,9 @@ content: "";
     top: 50%;
 }
 
-.logged-in.admin-bar .header-wrapper {
-    margin-top: 0px; 
-}
-.header-wrapper.header-transparent{
-    position: inherit;
-}
-
-.header-fixed-top #main-nav{
- float: right;
-}
-
-.header-fixed-top .top-bar-wrapper {
-    padding: 0;
-}
-
 .page-title-style-01 {
     padding-bottom: 120px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
 }
 
 .vc_row {
@@ -693,9 +704,7 @@ div.go-gallery ul.go-gallery-list li.go-gallery-item .image-overlay h3,
 #qt_popup_lb .qt_popup_header{
     padding: 20px 12px;
 }
-.main-nav {
-    box-shadow: 0px 0px 9px 0px #5151ea8c;
-}
+
 .key-contacts img{
     height: 100px;
 }

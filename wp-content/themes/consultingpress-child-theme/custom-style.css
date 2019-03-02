@@ -702,3 +702,25 @@ div.go-gallery ul.go-gallery-list li.go-gallery-item .image-overlay h3,
 #contact-detail-section .contact-detail-blogs h5 i{
     font-size: 15px;
 }
+
+#footer-wrapper .widget#media_image-2{
+   position: absolute;
+   top: -135px;
+   width: 100%;
+   left: 100%;
+   right: 0;
+   text-align: center;
+}
+#footer-wrapper .widget#media_image-2 img{
+width:120px !important;
+height:120px !important;
+   border-radius: 50%;
+   border: 8px solid #faf9ff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);    
+}
+
+.footer-widget-container .widget > .title h3{
+   color: #000;
+   font-weight: bold !important;
+   font-size: 18px;
+}

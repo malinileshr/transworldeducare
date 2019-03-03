@@ -208,7 +208,7 @@ class Volcanno_Visual_Composer {
      * @param  array $atts   
      * @return string
      */
-    static function custom_vc_output( $output, $this, $atts ) {
+static function custom_vc_output( $output, $this, $atts ) {
         if ( isset( $atts['row_overlay'] ) ) {
             $overlay_color = isset( $atts['row_overlay_color'] ) ? ' style="background-color:' . $atts['row_overlay_color'] . ';"' : '';
             $output = preg_replace( '/^<div (.*?)>/', '<div $1><div class="page-content-mask mask-solid-color"' . $overlay_color . '></div>', $output );

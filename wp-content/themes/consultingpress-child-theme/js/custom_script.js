@@ -5,7 +5,9 @@ $(document).ready(function(){
 
 var initializeGlobelCalls = function(){
 	var addSidebarButtonicon = function(){
-		var img = '<img src="../wp-content/themes/consultingpress-child-theme/images/stscope.png" class="stscopeicon">';
+        //img/svg/search-white.svg
+        var templateUrl = object_img.templateUrl;
+		var img = '<img src="' + templateUrl +'/images/stscope.png" class="stscopeicon">';
 		$(img).insertBefore( ".sliding-enquiry .enquiry-header span" );
 	}
 	var getStudentName = function(){

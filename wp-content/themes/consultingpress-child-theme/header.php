@@ -200,7 +200,19 @@
                                         <nav class="navbar navbar-default nav-left pi-mega">
                                             <!-- .navbar-header start -->
                                             <div class="navbar-header">
-                                                <?php echo Volcanno_Partials::generate_logo(); ?>
+                                                <?php
+                                                if( is_front_page()) {
+                                                    echo Volcanno_Partials::generate_logo(); 
+                                                } else {
+                                                    ?>
+                                                        <div id="logo">
+                                                            <a href="<?php echo get_home_url(); ?>">
+                                                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/TRANSWORLD-LOGO-white.png" width="256" height="64"/>
+                                                            </a>
+                                                        </div>
+                                                    <?php
+                                                }
+                                                 ?>
                                                 <?php echo Volcanno_Partials::header_element( 'navbar_toggle' ); ?>
                                             </div><!-- .navbar-header end -->
                                             <?php //echo Volcanno_Partials::header_element( 'search' ); ?>

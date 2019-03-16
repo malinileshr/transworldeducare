@@ -18,8 +18,17 @@ body p{
 /** ===== END Global Declarition ==== **/
 
 /* =======Custom Header for Home Page=======*/
+.top-bar-wrapper {
+    padding: 5px 0 0px 0;
+}
+.pi-mega{
+	margin-bottom:0;
+}
+.solid-color #logo img{
+	    margin-top: -5px;
+}
 .page-home .top-bar-wrapper{
-    background-color: #2c2c5e;
+    background-color: #004b46;
     margin-bottom: 0px;
     padding: 0px 10px;
     border-bottom: 0px solid rgba(255, 255, 255, 0.1);
@@ -65,7 +74,7 @@ body p{
     padding: 0;
 }
 .page-home .main-nav {
-    box-shadow: 0px 0px 9px 0px #5151ea8c;
+    box-shadow: 0px 0px 9px 0px rgba(81, 81, 234, 0.5490196078431373);
 }
 
 /* =======END Custom Header for Home Page=======*/
@@ -415,28 +424,19 @@ text-transform: uppercase;
 #news-and-event-sec .vc_tta.vc_general .vc_tta-panel-body{
     padding: 14px 0px;
 }
-#footer-wrapper{
-    background-color: #faf9ff;
-}
-#footer-wrapper p, #footer-wrapper span, #footer-wrapper li {
-   font-size: 13px;
-    color: #000;
-}
-#footer-wrapper .widget{margin-bottom: 5px;}
-#footer-wrapper ul.col-md-3.col-sm-6:first-child{width: 35%;}
-.footer-widget-container .widget > .title h1, .footer-widget-container .widget > .title h2, .footer-widget-container .widget > .title h3, .footer-widget-container .widget > .title h4, .footer-widget-container .widget > .title h5, .footer-widget-container .widget > .title h6 {
-    color: #000;
-    font-weight: bold !important;
-}
-#footer-wrapper a{
-    color: #acb4b5 !important;
-}
 .enquiry-content-pad p.equirydescription, .enquiry-content-pad hr, .enquiry-content-pad div > div{
     display: none;
 }
 .enquiry-content-pad div > div#enquiryform{
     display: block;
-    padding-top: 45px;
+    padding: 25px 10px;
+}
+.sliding-enquiry-right .slidingcaptchaans {
+    width: 180px;
+}
+.enquiry-content {
+    height: auto;
+    box-shadow: 0 0 30px #d6d6d6;	
 }
 .textbox_popup{
     border: 1px solid #2d5b85!important;
@@ -455,7 +455,7 @@ text-transform: uppercase;
     padding: 5px;
     height: auto;
 }
-.sliding-enquiry-right .button1_submit{background: -webkit-linear-gradient(top,#2d5b85,#00aae8)!important;}
+.sliding-enquiry-right .button1_submit{    background-color: #014541 !important;margin-bottom: 0 !important;}
 .sliding-enquiry-right .enquiry-header{
     width: auto;
     height: inherit;
@@ -465,6 +465,7 @@ text-transform: uppercase;
 background-color: #8d0502 !important;
     border-color: #8d0502 !important;
     text-align: center;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 .sliding-enquiry img.stscopeicon {
     position: relative;
@@ -617,15 +618,6 @@ span.border-bottom {
     border: none;
     padding-bottom: 0px;
 }
-
-.StudentsSection .featured-page-box .media img{
-    border-radius: 50%;
-    box-shadow: 0px 0px 15px 0px #dddddda6;
-    height: 100px;
-    width: 100px;
-    margin: 0 auto;
-    object-fit: cover;
-}
 .homepage_graduates .wpb_text_column{
 	    margin-top: 20px;
 }
@@ -688,9 +680,9 @@ ul.go-gallery-filters li.active a:after {
     content: "";
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #02738a;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #02738a;
     position: absolute;
     margin: 0 auto;
     left: 0;
@@ -734,12 +726,41 @@ height:120px !important;
    border: 8px solid #faf9ff;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);    
 }
-
-.footer-widget-container .widget > .title h3, .textwidget h3{
-   color: #000;
-   font-weight: bold !important;
-   font-size: 18px;
+#text-2 .textwidget h4{
+    color: #4c4c4e;
+    font-weight: bold !important;
+    font-style: italic;
 }
+#text-2 .title h3{
+    margin-bottom: 10px !important;
+}
+.footer-widget-container .widget > .title h3, .textwidget h3{
+   color: #971a1d;
+   font-weight: bold !important;
+   font-size: 21px;
+}
+#footer-wrapper{
+    background-image: url(../../../wp-content/uploads/2019/03/footer-map-img.jpg);
+    padding-bottom: 7%;
+    background-repeat: no-repeat;
+}
+#footer-wrapper li#text-2 {
+    padding-top: 140px;
+}
+#footer-wrapper p, #footer-wrapper span, #footer-wrapper li {
+   font-size: 13px;
+    color: #000;
+}
+#footer-wrapper .widget{margin-bottom: 5px;}
+#footer-wrapper ul.col-md-3.col-sm-6:first-child{width: 35%;}
+.footer-widget-container .widget > .title h1, .footer-widget-container .widget > .title h2, .footer-widget-container .widget > .title h3, .footer-widget-container .widget > .title h4, .footer-widget-container .widget > .title h5, .footer-widget-container .widget > .title h6 {
+  
+    font-weight: bold !important;
+}
+#footer-wrapper a{
+    color: #acb4b5 !important;
+}
+
 /**************************************3/3/2019*****************/
 .owl-controls > .owl-nav > .owl-prev {
     left: 46%;
@@ -779,28 +800,283 @@ height:120px !important;
     width: 90px;
     background-color: #000;
 }
-.page-courses .content-wrapper img, .page-courses .content-wrapper img{
+.page-courses .vc_column-inner{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
-.page-courses .wpb_single_image:hover img, .page-courses .wpb_single_image:hover img{
+.page-courses .vc_column-inner:hover{
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);	
 }
 .premedical .vc_column-inner, .pmge .vc_column-inner{
 	    background-color: #f6f6f6 !important;
+		    padding-top: 20px !important;
 }
-/*======EVent Page=======*/
+.page-courses .btnmbbs {
+    margin-left: 0px !important;
+    float: left;
+    margin-right: 8px !important;
+}
+.page-courses .mbbs .btnmbbs {
+    float: right;
+}
+/*======Event Page=======*/
 .type-event li .post-body {
     padding: 10px;
 }
 .type-location li{
 	padding: 10px !important;	
 }
-
-
+.homepage_contactform {
+    display: none;
+}
+.edate-etime h6{
+    margin-bottom:0px !important;
+    text-align: center;
+}
+.event-locations{
+    text-align:center;
+}
+.event-locations a {
+    color: #8c0704;
+    font-weight: bold;
+}
+.event-locations i, .edate-etime h6, .page-categories .col-md-12.content-wrapper ul > li{
+    color:#000;
+}
+.event-body {
+    background-color: #ddd;
+    padding: 20px 20px;
+    margin-top: -7px;
+}
+.event-blogs {
+    box-shadow: 3px 5px 5px 0px #02020259;
+}
+.event-blogs:hover {
+    box-shadow: 3px 5px 6px 0px #0618407d;
+}
+.event-img img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.event-body, .event-blogs {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.page-categories .col-md-12.content-wrapper ul > li > a{
+        color: #8c0603;
+}
+.page-categories .col-md-12.content-wrapper ul {
+    list-style-image: url(../../../wp-content/uploads/2019/03/listredicon.png);
+}
+/********************apply now*****************/
+.applynowform .wpb_wrapper{
+    max-width: 740px;
+    margin: 0 auto;
+}
+.page-apply-now .wpcf7 .wpcf7-text, .page-apply-now .wpcf7 .wpcf7-email, .page-apply-now .wpcf7 .wpcf7-textarea, .page-apply-now .wpcf7-number, .page-apply-now .wpcf7-select {
+    min-height: 34px;
+    padding: 5px 10px 5px 15px;
+}
+.page-apply-now .wpcf7-textarea{
+    height: 70px;	
+}
+.wpcf7 .wpcf7-submit {
+    background-color: #00483b !important;
+}
+/*************courses********/
+.subjectlist .vc_row.vc_row-has-fill {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.yearsubj .wpb_column{
+padding: 35px 35px;	
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.yearsubj .wpb_column .wpb_text_column{
+	margin-bottom:25px;
+}
+.yearsubj .wpb_column .wpb_text_column li {
+    width: 50%;
+    float: left;
+    color: #fff;
+    padding-bottom: 15px;	
+}
+.yrsub {
+    height: 96px;
+    width: 96px;
+    background-color: #000;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    padding-top: 15px;
+    border-radius: 50%;
+    border: 5px solid rgb(8, 75, 63);
+}
+.yrsub sub {
+    font-size: 16px;
+    position: relative;
+    top: 0;
+}
+/*========== Home page CSS =========*/
+.about-section {
+    text-align: center;
+    width: 78%;
+    margin: 0 auto;
+}
+span.bold-underline {
+    font-weight: bold;
+    border-bottom: 1px solid #6f6f6f;
+    color: #000;
+}
+.about-section .deans-btn{
+    margin-top: 20px;
+}
+.about-section p{
+    color:#000;
+}
+.about-us-section .wpb_text_column.wpb_content_element{
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: 110px;
+}
+.about_us_section_1 .alignnone {
+    border-radius: 50%;
+    border: 6px solid #fff;
+    width: auto;
+    box-shadow: 0 0 20px #000;
+}
+.about_us_section_1{
+    margin-bottom: 30px;	
+}
+.principal-section{
+    overflow: inherit !important;
+}   
+.princple-img {
+    position: absolute;
+    top: -60px;
+    z-index: 99;
+}
+.princple-img img{
+    border-radius: 50%;
+    padding: 10px;
+border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.principal-section .deans-message-inner h1,
+.principal-section .deans-message-inner p,
+.principal-section .deans-message-inner h4,
+.principal-section .deans-message-inner h6{
+    color:#fff;
+}
+.principal-section .deans-message-inner h3{
+    color:#fff;
+    margin-bottom: 10px !important;
+}
+.about-dmsf-sec:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.77);
+}
+.about-dmsf-sec .main-title h1,
+.messages-sections .main-title h1,
+.messages-sections p,
+.about-dmsf-sec p{
+    color:#fff !important;
+}
+.messages-sections p,
+.about-dmsf-sec p{
+    margin-bottom: 20px;
+}
+.about-dmsf-sec .wpb_wrapper{
+    position: relative;
+    z-index: 9;
+}
+.about-dmsf-sec .medical-school-logo{
+    position: absolute;
+    top: 40px;
+    right: -180px;
+}
+.class_room .vc_gitem-post-data {
+    margin-bottom: 0px;
+}
+.class_room .vc_gitem-post-data h4{
+    margin-bottom: 0px !important;
+}
+.class_room .vc_gitem_row .vc_gitem-col {
+    padding: 15px;
+}
+.class_room .vc_gitem-zone{
+    background-color: #ffffff !important;	
+}
+.class_room .vc_grid-item-mini {
+    background-color: #fff;
+    box-shadow: 0px 7px 24px rgba(145, 145, 167, 0.17);
+}
+.messages-sections .main-title h1{ 
+    font-size: 28px;
+    line-height: 20px !important; 
+}
+.table > thead > tr > th {
+    color: #ffffff;
+    background-color: #636363;
+    font-size: 13px;
+}
+.messages-sections .main-title h1:after, .full-width-inside .main-title h1:after,
+.homepage_graduates .main-title h1:after{
+    background: #fff;
+}
+.messages-sections.vc_col-has-fill .vc_column-inner{ padding-top: 50px !important; }
+.Affiliated-text-section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.StudentsSection .featured-page-box .body h2{
+    color:#fff;
+}
+.StudentsSection .featured-pages-carousel .owl-controls{
+    display: none;
+}
+.StudentsSection .featured-page-box .media img{
+    border-radius: 50%;
+    border: 5px solid #d7d7d7;
+    height: 110px;
+    width: 110px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.enquiry-content input, textarea, select {
+    padding: 0 15px;
+}
+.enquiry-content input::-webkit-input-placeholder, .enquiry-content textarea::-webkit-input-placeholder { 
+color: #888;
+}
+.enquiry-content input::-moz-placeholder, .enquiry-content textarea::-moz-placeholder {
+color: #888;
+}
+.enquiry-content input:-ms-input-placeholder, .enquiry-content textarea:-ms-input-placeholder { 
+color: #888;
+}
+.enquiry-content input:-moz-placeholder, .enquiry-content textarea:-moz-placeholder {
+color: #888;
+}
 /***********************************************media query**************************/
 @media (max-width: 767px){
+.ms-anim-layers .ms-layer h1 strong {
+    font-size: 28px;
+}	
+h1.slider-title {
+    line-height: 30px !important;
+}
+.main-title h1{
+	font-size:28px;
+}
 	div#wpcf7-f5-p6-o1 {
     position: relative;
     bottom: 0;
@@ -814,7 +1090,6 @@ height:120px !important;
 .courseshome {
     padding-left: 0 !important;
     padding-right: 0px !important;
-    width: 100% !important;
 }	
 .vc_btn3.vc_btn3-size-md {
     width: auto;
@@ -823,6 +1098,13 @@ height:120px !important;
     padding-left: 0 !important;
     padding-right: 0px !important;
     width: 100% !important;
+    margin-left: 0px;
+    margin-right: 0 !important;
+    left: 0 !important;
+}
+.homepage_features-transworld .vc_column_container>.vc_column-inner {
+    padding-left: 0;
+    padding-right: 0;
 }
 .homepage_director-info_1 .vc_column-inner, .homepage_director-info_2 .vc_column-inner {
     min-height: 220px;
@@ -851,6 +1133,48 @@ height:120px !important;
     right: 0;
     top: 0;
     text-align: center;
+}
+.homepage_director-info_1{
+	    margin-top: 0px !important;
+}
+.homepage_director-info_2{
+	    margin-bottom: 0px !important;
+	    padding-bottom: 0px !important;	
+}
+.homepage_get-addmission h1 {
+    font-size: 28px;
+}
+.full-width-inside span.apply-nowbtn-fullwidth {
+    font-size: 15px;
+    margin-left: 0;
+    margin-top: 10px;
+    display: block;
+}
+h1 {
+    font-size: 28px !important;
+}
+.mbbs h1 {
+    font-size: 28px;
+}
+.mbbs .vc_column-inner {
+    padding-top: 0px !important;
+padding-right: 15px !important;
+    padding-left: 15px !important;		
+}
+.premedical .vc_column-inner, .pmge .vc_column-inner {
+    min-height: 260px;
+	padding: 15px !important;
+}
+/**graduates***/
+.all-graduates .col-md-3{
+	    margin-bottom: 0px;
+}
+/*gallery*/
+.gallery-text {
+    width: 100%;
+}
+#affiliated-section .full-width-section h1 {
+    font-size: 28px;
 }
 #footer-wrapper ul.col-md-3.col-sm-6:first-child {
     width: 100%;

@@ -266,3 +266,9 @@
 [03-Feb-2015 04:54:58 Etc/GMT] PHP Fatal error:  Using $this when not in object context in /home/arzeegro/public_html/krazymantra/wp-content/plugins/sticky-popup/mail.php on line 4
 [03-Feb-2015 04:57:37 Etc/GMT] PHP Fatal error:  Using $this when not in object context in /home/arzeegro/public_html/krazymantra/wp-content/plugins/sticky-popup/mail.php on line 3
 [03-Feb-2015 04:58:28 Etc/GMT] PHP Fatal error:  Using $this when not in object context in /home/arzeegro/public_html/krazymantra/wp-content/plugins/sticky-popup/mail.php on line 3
+[11-Mar-2019 13:17:07 UTC] PHP Notice:  Undefined index: serveremailid in /home/af2h8pw9dvp3/public_html/transworldeducare/wp-content/plugins/sliding-enquiry-form/mail.php on line 4
+[11-Mar-2019 13:17:07 UTC] PHP Notice:  Undefined index: name in /home/af2h8pw9dvp3/public_html/transworldeducare/wp-content/plugins/sliding-enquiry-form/mail.php on line 6
+[11-Mar-2019 13:17:07 UTC] PHP Notice:  Undefined index: email in /home/af2h8pw9dvp3/public_html/transworldeducare/wp-content/plugins/sliding-enquiry-form/mail.php on line 7
+[11-Mar-2019 13:17:07 UTC] PHP Notice:  Undefined index: number in /home/af2h8pw9dvp3/public_html/transworldeducare/wp-content/plugins/sliding-enquiry-form/mail.php on line 8
+[11-Mar-2019 13:17:07 UTC] PHP Notice:  Undefined index: message in /home/af2h8pw9dvp3/public_html/transworldeducare/wp-content/plugins/sliding-enquiry-form/mail.php on line 9
+[11-Mar-2019 13:17:07 UTC] PHP Notice:  Undefined index: captcha in /home/af2h8pw9dvp3/public_html/transworldeducare/wp-content/plugins/sliding-enquiry-form/mail.php on line 10
